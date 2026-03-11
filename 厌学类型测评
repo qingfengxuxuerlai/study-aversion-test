@@ -1,0 +1,18 @@
+# 进入项目目录
+cd 你的文件所在目录
+
+# 初始化 Git 仓库
+git init
+
+# 添加所有文件
+git add .
+
+# 提交
+git commit -m "首次上传厌学测评小程序"
+
+# 关联远程仓库（替换 YOUR_USERNAME 为你的 GitHub 用户名）
+git remote add origin https://github.com/YOUR_USERNAME/study-aversion-test.git
+
+# 推送到 GitHub
+git branch -M main
+git push -u origin main
